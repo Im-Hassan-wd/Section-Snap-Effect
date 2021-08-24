@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  scroll-snap-align: start;
+}
+
+.one {
+  background: rgb(36, 164, 138);
+}
+
+.two {
+  background: rgb(211, 79, 79);
+}
+
+.three {
+  background: rgb(67, 91, 175);
+}
+
+.four {
+  background: lightsalmon;
+}
